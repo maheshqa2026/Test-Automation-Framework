@@ -25,7 +25,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-       - name: Build with Maven
+      - name: Build with Maven
         run: mvn clean install
         working-directory: Automation-Assignment
 
@@ -33,27 +33,26 @@ jobs:
         run: mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false
         working-directory: Automation-Assignment
 
-        
       - name: Upload Test Logs
         if: always()
         uses: actions/upload-artifact@v4.4.3
         with:
           name: Test logs
-          path: logs/
+          path: Automation-Assignment/logs/
 
       - name: Upload Screenshots as Artifacts
         if: always()
         uses: actions/upload-artifact@v4.4.3
         with:
           name: screenshots
-          path: screenshots/
+          path: Automation-Assignment/screenshots/
 
       - name: Upload HTML Report as Artifact
         if: always()
         uses: actions/upload-artifact@v4.4.3
         with:
           name: html-report
-          path: report.html
+          path: Automation-Assignment/report.html
 
       - name: Test Execution Status
         if: always()
@@ -63,9 +62,9 @@ jobs:
         if: always()
         run: |
           mkdir -p public/extent-reports
-          cp -R report.html public/extent-reports/
-          cp -R screenshots/ public/extent-reports/screenshots/
-          ls -l
+          cp Automation-Assignment/report.html public/extent-reports/
+          cp -R Automation-Assignment/screenshots/ public/extent-reports/screenshots/
+          ls -l public/extent-reports
 
       - name: Deploy 🚀
         if: always()
