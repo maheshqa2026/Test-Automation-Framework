@@ -30,7 +30,7 @@ jobs:
         working-directory: Automation-Assignment
 
       - name: Run Test Automation
-        run: mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false
+        run: mvn test -x -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false
         working-directory: Automation-Assignment
 
       - name: Upload Test Logs
