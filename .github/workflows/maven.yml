@@ -24,6 +24,11 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
+        name: Build with Maven
+        run: mvn clean install
+        # change this only if pom.xml is in a subfolder
+        working-directory: Test-Automation-Framework
+        
     - name: Running Test Automation Framework with Maven
       run: mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false
      
