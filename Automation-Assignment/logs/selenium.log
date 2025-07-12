@@ -1,0 +1,1303 @@
+2025-07-11 09:56:30 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 09:56:30 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 09:56:30 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 09:56:39 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 09:56:44 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 09:56:44 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 09:56:44 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 09:56:44 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 09:56:44 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 09:56:44 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 09:56:45 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 09:56:45 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 09:56:45 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 09:56:45 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 09:56:45 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 09:56:45 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 09:56:45 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 09:56:45 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 09:56:45 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29e07c292629a4378856531761dfa526, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57251}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57251/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29e07c292629a4378856531761dfa526
+2025-07-11 09:56:45 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 09:56:45 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 09:56:45 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 09:56:45 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 09:56:45 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 09:56:45 WARN  com.ui.listners.TestListner - loginTest SKIPPED
+2025-07-11 09:56:50 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 09:57:31 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 09:57:55 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 09:57:59 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 09:57:59 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 09:57:59 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 09:57:59 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 09:57:59 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 09:57:59 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 09:58:00 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 09:58:00 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 09:58:01 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 09:58:01 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 09:58:01 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 09:58:01 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 09:58:02 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 09:58:02 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 09:58:02 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 09:58:08 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 09:59:45 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 09:59:46 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 09:59:46 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 09:59:48 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 09:59:52 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 09:59:52 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 09:59:52 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 09:59:52 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 09:59:52 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 09:59:52 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 09:59:53 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 09:59:53 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 09:59:53 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 09:59:53 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 09:59:53 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 09:59:53 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 09:59:53 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 09:59:53 WARN  com.ui.listners.TestListner - loginExcelTest SKIPPED
+2025-07-11 09:59:53 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 09:59:53 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 09:59:53 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 09:59:53 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 09:59:53 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 09:59:54 ERROR com.ui.listners.TestListner - loginExcelTest FAILED
+2025-07-11 09:59:54 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),"Sign in")]"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d674df27f6785a78d819dc2eca786ef1, findElement {value=//a[contains(text(),"Sign in")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57364/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d674df27f6785a78d819dc2eca786ef1
+2025-07-11 09:59:54 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 09:59:54 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 09:59:59 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:01:56 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:02:08 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:02:16 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:02:26 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:02:41 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:02:41 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:02:41 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:02:41 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:02:41 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:02:41 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:02:42 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:02:42 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:02:43 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:02:43 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:02:43 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:02:43 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:02:43 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:02:58 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:03:15 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 10:03:45 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:05:09 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:05:10 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:05:10 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:05:12 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:05:16 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:05:16 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:05:16 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:05:16 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:05:16 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:05:16 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:05:17 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:05:17 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:05:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:05:18 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:05:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:05:18 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:05:19 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:05:19 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:05:19 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 10:05:24 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:20:55 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:20:55 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:20:55 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:20:55 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:20:55 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:20:56 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:20:56 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:20:58 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:20:58 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:20:58 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+ INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:21:02 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:21:02 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:21:02 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:21:02 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:21:02 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:21:02 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:21:02 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:21:02 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:21:02 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:21:03 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:21:03 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:21:03 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:21:03 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 10:21:03 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:21:03 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:21:04 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:21:04 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:21:04 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:21:04 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:21:04 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 10:21:04 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 10:21:04 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [830a53f25d0460ed2dd131882989843c, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57851}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57851/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 830a53f25d0460ed2dd131882989843c
+2025-07-11 10:21:04 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [372c3b631aef7f6b18410c2c70d66b37, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57852/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 372c3b631aef7f6b18410c2c70d66b37
+2025-07-11 10:21:04 WARN  com.ui.listners.TestListner - loginExcelTest SKIPPED
+2025-07-11 10:21:04 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:21:04 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:21:04 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:21:04 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:21:05 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:21:05 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:21:05 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:21:05 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:21:05 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:21:05 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:21:06 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:21:07 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:21:07 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:21:10 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:21:10 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:21:10 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:21:10 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:21:10 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:21:10 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:21:11 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:21:11 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:21:11 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:21:11 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:21:11 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:21:11 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:21:11 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:21:11 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:21:11 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:21:11 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:21:11 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:21:11 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:21:11 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:21:11 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:21:11 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:21:11 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:21:11 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:21:11 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:21:11 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:21:11 ERROR com.ui.listners.TestListner - loginExcelTest FAILED
+2025-07-11 10:21:11 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c1fdcdd7e38ba263b38922b7b3eb8b2, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57919/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c1fdcdd7e38ba263b38922b7b3eb8b2
+2025-07-11 10:21:11 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:21:12 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:21:13 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:21:13 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 10:21:13 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a15559375297b0400726233357a3339d, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57938/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a15559375297b0400726233357a3339d
+2025-07-11 10:21:13 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:21:13 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:21:14 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:21:14 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:21:14 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 10:21:14 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:21:19 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:22:28 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:22:55 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:22:56 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:22:59 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:22:59 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:22:59 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:22:59 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:22:59 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:22:59 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:23:00 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:23:00 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:23:00 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:23:00 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:23:00 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:23:01 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:23:01 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:23:01 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:23:01 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:23:01 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:23:02 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:23:02 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:23:03 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:23:03 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:23:03 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:23:03 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 10:23:03 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 10:23:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:23:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:23:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:23:04 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:23:06 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:23:06 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 10:23:06 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [91021b69905079edd7dc58f943d8f67a, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 91021b69905079edd7dc58f943d8f67a
+2025-07-11 10:23:06 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:23:07 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:23:14 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:23:16 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:23:16 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:23:16 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:23:16 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:23:16 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:23:16 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:23:17 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:23:17 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 10:23:17 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:23:17 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 10:23:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:23:18 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:23:18 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:23:19 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 10:23:19 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68d6d9bc71631a3bf5d50f25078ed639, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68d6d9bc71631a3bf5d50f25078ed639
+2025-07-11 10:23:19 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:23:19 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:23:19 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:23:20 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:23:20 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:23:20 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:23:20 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:23:20 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:23:20 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:23:21 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:23:21 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:23:22 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:23:22 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:23:22 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:23:22 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:23:23 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:23:23 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:23:24 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 10:23:41 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:23:45 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:23:45 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:23:45 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:23:45 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:23:45 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:23:45 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:23:46 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:23:46 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:23:47 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:23:47 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:23:47 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:23:47 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:23:48 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:23:48 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:23:48 INFO  com.ui.listners.TestListner - loginCSVTest PASSED
+2025-07-11 10:23:54 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:26:28 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:26:28 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:26:28 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:26:28 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:26:28 WARN  com.ui.listners.TestListner - loginTest SKIPPED
+2025-07-11 10:26:28 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:26:28 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:26:28 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:26:28 WARN  com.ui.listners.TestListner - loginTest SKIPPED
+2025-07-11 10:26:28 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:29:55 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:29:56 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:29:56 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:29:58 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:30:02 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:30:02 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:30:02 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:30:02 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:30:02 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:30:02 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:30:03 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:30:03 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 10:30:03 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:30:03 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:30:03 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:30:03 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:30:03 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:30:03 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 10:30:03 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca7bd3edfe45e41fc640a1a8f8f4ac66, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58215/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca7bd3edfe45e41fc640a1a8f8f4ac66
+2025-07-11 10:30:03 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:30:04 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:30:04 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:30:04 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:30:05 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:30:09 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:30:09 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:30:09 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:30:09 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:30:09 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:30:09 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:30:10 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:30:10 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:30:10 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:30:10 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:30:10 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:30:10 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:30:11 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:30:12 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:30:12 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 10:30:17 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:30:43 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:30:43 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:30:43 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:30:45 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:30:49 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:30:49 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:30:49 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:30:49 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:30:49 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:30:49 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:30:50 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:30:50 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 10:30:50 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:30:50 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:30:51 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:30:51 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:30:51 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:30:51 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 10:30:51 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86791bec7f895b5071a965a6454acf56, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58267/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86791bec7f895b5071a965a6454acf56
+2025-07-11 10:30:51 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:30:52 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:30:52 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:30:52 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:30:54 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:30:58 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:30:58 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:30:58 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:30:58 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:30:58 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:30:58 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:30:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:30:59 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:30:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:30:59 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:30:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:30:59 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:31:00 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:31:00 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:31:00 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 10:31:05 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:45:08 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:45:08 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:45:08 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:45:08 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:45:08 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:45:09 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:45:09 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:45:11 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:45:11 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:45:12 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:45:16 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:45:16 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:45:17 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:45:17 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:45:17 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 10:45:17 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:45:17 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:45:17 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:45:18 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:45:18 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:45:18 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:45:18 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:45:18 WARN  com.ui.listners.TestListner - loginExcelTest SKIPPED
+2025-07-11 10:45:18 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:45:18 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:45:18 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 10:45:18 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db10861646dc7116bd64ed2545f011b1, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58596/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db10861646dc7116bd64ed2545f011b1
+2025-07-11 10:45:18 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:45:18 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 10:45:18 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47d7cc976228b0b98c7703ea1c18c7ae, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58597/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47d7cc976228b0b98c7703ea1c18c7ae
+2025-07-11 10:45:18 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:45:18 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:45:18 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:45:19 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:45:19 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:45:19 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:45:19 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:45:20 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:45:21 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:45:21 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:45:24 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:45:24 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:45:24 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:45:24 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:45:24 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:45:24 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:45:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:45:25 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:45:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:45:25 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:45:25 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:45:25 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:45:25 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:45:25 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:45:25 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:45:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:45:25 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:45:25 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:45:25 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:45:25 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:45:25 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:45:25 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:45:25 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:45:25 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:45:26 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:45:26 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:45:26 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:45:26 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:45:27 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:45:27 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:45:27 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 10:45:28 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:45:28 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:45:28 INFO  com.ui.listners.TestListner - loginCSVTest PASSED
+2025-07-11 10:45:33 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:47:46 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:47:47 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:47:47 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:47:47 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:47:47 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:47:48 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:47:48 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:47:50 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:47:50 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:47:51 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:47:57 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:47:57 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:47:58 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:47:58 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:47:58 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:47:58 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 10:47:58 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:47:58 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:47:59 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:48:00 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:48:00 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 10:48:00 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7943a1affa49ecfce36cc13a0355b215, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58761/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7943a1affa49ecfce36cc13a0355b215
+2025-07-11 10:48:00 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:48:00 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:48:00 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 10:48:00 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0f463ded9b58ab156185b7d76295db1, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58760/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0f463ded9b58ab156185b7d76295db1
+2025-07-11 10:48:00 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:48:00 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:48:00 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:48:00 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 10:48:00 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:48:01 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:48:01 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:48:01 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:48:01 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:48:01 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:48:03 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:48:03 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:48:07 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:48:07 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:48:07 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:48:07 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:48:07 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:48:07 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:48:07 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:48:07 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:48:07 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:48:07 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:48:07 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:48:07 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:48:08 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:48:09 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:48:09 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:48:09 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 10:48:09 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:48:10 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:48:10 INFO  com.ui.listners.TestListner - loginCSVTest PASSED
+2025-07-11 10:48:15 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 10:54:57 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 10:54:58 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:54:58 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:54:58 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:54:58 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:54:58 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:54:58 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:55:01 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:55:01 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:55:01 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:55:06 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:55:06 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:55:06 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:55:07 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:55:07 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:55:07 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:55:07 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 10:55:07 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:55:07 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:55:07 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:55:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:55:08 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 10:55:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:55:08 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 10:55:08 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:55:08 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:55:09 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:55:09 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:55:09 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:55:09 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:55:09 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 10:55:09 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 10:55:09 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2703f4196374078bdfe951bac2b456e1, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58952}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58952/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2703f4196374078bdfe951bac2b456e1
+2025-07-11 10:55:09 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:55:09 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:55:10 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:55:10 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:55:10 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:55:10 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:55:10 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:55:10 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:55:10 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:55:10 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:55:10 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:55:10 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:55:10 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:55:10 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:55:11 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 10:55:11 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31bfa0180129b0149e2ebd879434c3ea, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58953/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31bfa0180129b0149e2ebd879434c3ea
+2025-07-11 10:55:11 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 10:55:11 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:55:11 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 10:55:12 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 10:55:12 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 10:55:12 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 10:55:13 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:55:14 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 10:55:18 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 10:55:18 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:55:18 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:55:18 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:55:18 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:55:18 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:55:19 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 10:55:19 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 10:55:19 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 10:55:19 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 10:55:19 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 10:55:19 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 10:55:19 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:55:19 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:55:19 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:55:19 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:55:19 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:55:19 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:55:20 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 10:55:20 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 10:55:20 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 10:55:20 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 10:55:20 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:55:20 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 10:55:20 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 10:55:20 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:55:20 INFO  com.ui.listners.TestListner - loginCSVTest PASSED
+2025-07-11 10:55:21 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 10:55:21 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 10:55:22 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 10:55:27 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 11:09:47 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 11:09:47 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:09:47 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:09:47 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:09:47 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:09:48 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:09:48 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:09:52 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:09:52 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:09:52 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:09:54 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 11:09:54 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:09:54 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:09:54 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:09:54 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:09:56 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 11:09:56 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:09:56 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:09:56 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:09:56 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:09:57 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:09:57 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:09:57 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 11:09:57 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:09:57 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:09:57 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:09:57 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:09:57 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:09:58 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 11:09:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:09:59 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:09:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:09:59 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:09:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:09:59 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:09:59 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:09:59 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:09:59 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:09:59 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:09:59 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 11:09:59 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9baa928956bdb6d9abbcb2c46f1e6c0b, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59205/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9baa928956bdb6d9abbcb2c46f1e6c0b
+2025-07-11 11:09:59 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:09:59 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 11:09:59 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38332cb36258cba1c4d8ad4c6018cd63, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59211}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59211/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38332cb36258cba1c4d8ad4c6018cd63
+2025-07-11 11:09:59 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:10:00 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:10:00 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:10:00 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:10:00 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:10:01 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:10:01 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 11:10:01 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:10:01 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:10:01 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:10:05 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:10:06 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:10:11 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 11:10:11 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:10:11 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:10:11 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:10:11 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:10:11 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 11:10:11 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:10:11 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:10:11 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:10:11 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:10:11 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:10:11 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:10:12 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:10:13 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:10:13 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 11:10:13 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56d3012debe0959bbf5edfe3ce975833, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59282/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56d3012debe0959bbf5edfe3ce975833
+2025-07-11 11:10:13 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:10:13 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:10:14 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:10:14 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 11:10:14 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:10:19 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 11:16:15 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 11:16:16 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:16:16 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:16:16 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:16:16 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:16:16 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:16:16 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:16:19 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:16:19 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:16:19 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:16:20 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 11:16:20 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:16:20 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 11:16:20 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:16:20 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:16:20 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:16:20 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:16:20 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:16:20 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:16:20 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:16:23 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 11:16:23 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:16:23 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:16:23 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:16:23 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:16:23 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:16:23 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:16:23 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:16:24 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:16:24 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:16:24 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:16:24 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:16:25 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:16:25 WARN  com.ui.listners.TestListner - loginExcelTest SKIPPED
+2025-07-11 11:16:25 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:16:25 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:16:25 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:16:25 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:16:25 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:16:25 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 11:16:25 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9bdddeaad9881ef2b008ec32e056ef2a, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59371/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9bdddeaad9881ef2b008ec32e056ef2a
+2025-07-11 11:16:25 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:16:25 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 11:16:25 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82f9fd11b9a58491df31bb7cf6385741, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59370/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 82f9fd11b9a58491df31bb7cf6385741
+2025-07-11 11:16:25 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:16:26 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:16:26 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:16:26 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:16:26 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:16:27 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:16:27 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:16:28 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:16:29 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:16:29 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:16:33 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 11:16:33 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:16:33 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:16:33 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:16:33 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:16:33 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:16:34 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 11:16:34 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:16:34 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:16:34 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:16:34 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:16:34 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:16:34 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:16:34 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:16:34 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 11:16:34 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:16:34 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:16:34 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:16:34 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:16:34 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:16:34 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:16:34 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:16:35 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:16:35 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:16:36 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:16:36 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:16:36 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:16:36 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:16:36 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 11:16:36 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:16:36 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:16:36 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:16:36 INFO  com.ui.listners.TestListner - loginCSVTest PASSED
+2025-07-11 11:16:37 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:16:37 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:16:37 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 11:16:42 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 11:19:55 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 11:19:55 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:19:55 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:19:55 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:19:55 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:19:56 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:19:56 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:19:58 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:19:58 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:19:58 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:20:00 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 11:20:00 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:20:00 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:20:00 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:20:00 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:20:02 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 11:20:02 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:20:02 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:20:02 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:20:02 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:20:02 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:20:03 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:20:03 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 11:20:03 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:20:03 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:20:03 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:20:03 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:20:03 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:20:03 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:20:03 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:20:04 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:20:05 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:20:05 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:20:05 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:20:05 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 11:20:05 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 11:20:05 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65203ac04a4c536a3889da0d6f80dd6d, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59554/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65203ac04a4c536a3889da0d6f80dd6d
+2025-07-11 11:20:05 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7bdca818e7d98ad25673ad97c39409e5, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: /var/folders/rg/cdcr88t17b3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59553/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdca818e7d98ad25673ad97c39409e5
+2025-07-11 11:20:05 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:20:05 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:20:05 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:20:05 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 11:20:06 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:20:06 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:20:06 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:20:06 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:20:06 INFO  com.ui.tests.LoginTest - Load the Home page of the Website
+2025-07-11 11:20:06 INFO  com.ui.pages.HomePage - Launching Browser: CHROME
+2025-07-11 11:20:08 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:20:08 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:20:12 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 11:20:12 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:20:12 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:20:12 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:20:12 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:20:12 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:20:12 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 11:20:12 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:20:12 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:20:12 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:20:12 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:20:12 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:20:13 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:20:13 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:20:13 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:20:13 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:20:14 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:20:14 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:20:14 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:20:14 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:20:14 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:20:14 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:20:14 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:20:14 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:20:14 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:20:15 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:20:15 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:20:15 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:20:15 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 11:20:15 INFO  com.ui.listners.TestListner - loginCSVTest PASSED
+2025-07-11 11:20:20 INFO  com.ui.listners.TestListner - Test Suite Completed
+2025-07-11 11:21:34 INFO  com.ui.listners.TestListner - Test Suite Started
+2025-07-11 11:21:44 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:21:46 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:21:47 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 11:21:47 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:21:47 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:21:47 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:21:47 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:21:48 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:21:48 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:21:49 INFO  com.ui.pages.LoginPage -  element found and Enter Text : mahesh123@gmail.com
+2025-07-11 11:21:49 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 11:21:49 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:21:49 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:21:49 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:21:49 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:21:49 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:21:49 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:21:49 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:21:49 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:21:50 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:21:50 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:21:50 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:21:50 INFO  com.ui.pages.LoginPage -  element found and Enter Text : maheshtest123@gmail.com
+2025-07-11 11:21:51 ERROR com.ui.listners.TestListner - loginTest FAILED
+2025-07-11 11:21:51 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [f6518eced8414056379d3dbc4dd2edf7, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6518eced8414056379d3dbc4dd2edf7
+2025-07-11 11:21:51 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:21:51 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:21:51 INFO  com.ui.pages.LoginPage -  element found and Enter Text : pass1234
+2025-07-11 11:21:51 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:21:51 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:21:51 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:21:52 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:21:52 ERROR com.ui.listners.TestListner - loginCSVTest FAILED
+2025-07-11 11:21:52 ERROR com.ui.listners.TestListner - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.6', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [bafcc6667e2b5279f10efb7cc4785506, findElement {using=xpath, value=//a[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bafcc6667e2b5279f10efb7cc4785506
+2025-07-11 11:21:52 INFO  com.ui.listners.TestListner - Capturing screenshot for Fasiled Test
+2025-07-11 11:21:52 INFO  com.ui.listners.TestListner - Attaching screenshot to HTML file
+2025-07-11 11:22:05 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:22:09 INFO  com.ui.listners.TestListner - loginTest
+2025-07-11 11:22:09 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:22:09 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:22:09 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:22:09 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:22:09 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:22:10 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:22:10 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:22:11 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:22:11 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:22:11 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:22:11 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:22:12 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:22:12 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:22:12 INFO  com.ui.listners.TestListner - loginTest PASSED
+2025-07-11 11:22:21 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:22:25 INFO  com.ui.listners.TestListner - loginExcelTest
+2025-07-11 11:22:25 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:22:25 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:22:25 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:22:25 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:22:25 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:22:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:22:26 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:22:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:22:26 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:22:26 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:22:27 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:22:28 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:22:28 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:22:28 INFO  com.ui.listners.TestListner - loginExcelTest PASSED
+2025-07-11 11:22:30 INFO  com.ui.pages.HomePage - Visiting the website  : http://www.automationpractice.pl
+2025-07-11 11:22:32 INFO  com.ui.listners.TestListner - loginCSVTest
+2025-07-11 11:22:32 INFO  com.ui.listners.TestListner - Verify login with valid user credential
+2025-07-11 11:22:32 INFO  com.ui.listners.TestListner - [e2e, sanity]
+2025-07-11 11:22:32 INFO  com.ui.pages.HomePage - Trying to perform click to goto sign in Page
+2025-07-11 11:22:32 INFO  com.ui.pages.HomePage - Finding element with the Locator  : By.xpath: //a[contains(text(),"Sign in")]
+2025-07-11 11:22:32 INFO  com.ui.pages.HomePage -  element found and performing click : 
+2025-07-11 11:22:33 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: email
+2025-07-11 11:22:33 INFO  com.ui.pages.LoginPage -  element found and Enter Text : sirej45221@dxirl.com
+2025-07-11 11:22:34 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: passwd
+2025-07-11 11:22:34 INFO  com.ui.pages.LoginPage -  element found and Enter Text : password
+2025-07-11 11:22:34 INFO  com.ui.pages.LoginPage - Finding element with the Locator  : By.id: SubmitLogin
+2025-07-11 11:22:34 INFO  com.ui.pages.LoginPage -  element found and performing click : 
+2025-07-11 11:22:35 INFO  com.ui.pages.MyAccountPage - Finding element with the Locator  : By.xpath: //a[@title="View my customer account"]/span
+2025-07-11 11:22:35 INFO  com.ui.pages.MyAccountPage - element found and returning the visible text : Mahesh khole
+2025-07-11 11:22:35 INFO  com.ui.listners.TestListner - loginCSVTest PASSED
+2025-07-11 11:22:41 INFO  com.ui.listners.TestListner - Test Suite Completed
