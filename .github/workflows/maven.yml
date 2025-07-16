@@ -2,7 +2,7 @@ name: Test Automation WorkFlow
 
 on:
   schedule:
-    - cron: '00 18 * * *'  # Runs daily at 6 PM UTC
+    - cron: ''  # Runs daily at 6 PM UTC
   push:
     branches: [ "master" ]
   pull_request:
